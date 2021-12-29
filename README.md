@@ -128,6 +128,38 @@ public class sumOfoddNumberInArray {
     }
 }
 ```
+### kendisine parametre olarak gelen 10 elamanlı dizideki en büyük ve en küçük değeri döndüren metot
+```java
+public class theBiggestAndTheShortest {
+    public static void main(String[] args) {
+        Scanner s =new Scanner(System.in);
+        int dizi[]=new int[10];
+        for(int i=0;i<dizi.length;i++){
+            int sayi=s.nextInt();
+            dizi[i]=sayi;
+        }
+        bul(dizi);
+    }public static int[] bul(int[] a) {
+        int dizi[] = new int[2];
+        int enb = a[0];
+        int enk = a[0];
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] > enb) {
+                enb=a[i];
+            } else if (a[i] < enk) {
+                enk=a[i];
+            }
+        }
+        dizi[0] = enb;
+        dizi[1] = enk;
+        System.out.println("dizinin enk değeri : "+enk);
+        System.out.println("dizinin enb değeri : "+enb);
+        return dizi;
+
+    }
+    
+}
+```
 ```
 
 
