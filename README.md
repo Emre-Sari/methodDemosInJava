@@ -32,11 +32,10 @@ public class fındLongestStringİnArrays {
         }return str;
         
     }
-}```
+}
 ```
 ### kendisine parametre olarak gelen stringdeki küçük karakterlerin sayısını geri döndüren metot 
 ```java
-
 public class countLowerCase {
     public static void main(String[] args) {
         count("emRe");
@@ -74,6 +73,32 @@ public class howManyThereİsWord {
     }
 }
 ```
+### kendisine parametre olarak gelen stringdeki küçük harfleri büyüğe büyük harfleri küçüğe çeviren method
+public class lowCharactertoUpCharacteANDupCharactertoLowCharacter {
+    public static void main(String[] args) {
+        String str=convert("ikTiSaT");
+        System.out.println(str);
+    }
+    public static String convert(String str) {
+        String yeni = "";
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) <= 'z' && str.charAt(i) >= 'a') {
+                char c = str.charAt(i);
+                String s = String.valueOf(c);
+                String k = s.toUpperCase();
+                yeni += k;
+            } else {
+                char c = str.charAt(i);
+                String s = String.valueOf(c);
+                String k = s.toLowerCase();
+                yeni += k;
+            }
+        }
+        return yeni;
+        
+    }
+
+}
 ```
 
 
