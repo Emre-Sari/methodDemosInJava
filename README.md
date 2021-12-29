@@ -60,7 +60,6 @@ public class fındLongestStringİnArrays {
 }
 ```
 ### kendisine parametre olarak gelen stringdeki küçük karakterlerin sayısını geri döndüren method;
-```java
 public class countLowerCase {
     public static void main(String[] args) {
         count("emRe");
