@@ -32,7 +32,8 @@ public class fındLongestStringİnArrays {
         }return str;
         
     }
-}
+}```
+```java
 ### kendisine parametre olarak gelen stringdeki küçük karakterlerin sayısını geri döndüren metot 
 public class countLowerCase {
     public static void main(String[] args) {
