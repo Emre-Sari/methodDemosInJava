@@ -1,5 +1,6 @@
 # methodDemosInJava
 ### kendisine parametre olarak gelen diziyi bir sağa çeviren method;
+```java
 public class toOneRightReturnMethod {
     public static void main(String[] args) {
         read_arrays(to_one_right(create_array()));
@@ -22,7 +23,7 @@ public class toOneRightReturnMethod {
               System.out.println(m[i]);
           }return null;
 }
-    }
+    }```
 ### kendisine parametre olarak gelen 3*4 lük 2 boyutlu string dizisindeki en uzun stringi ve yerini bulan method;
 ```java
 public class fındLongestStringİnArrays {
@@ -185,6 +186,7 @@ public class theBiggestAndTheShortest {
 }
 ```
 ### kendisine parametre olarak gelen diziyi bir sağa çeviren method;
+```java
 public class toOneRightReturnMethod {
     public static void main(String[] args) {
         read_arrays(to_one_right(create_array()));
@@ -208,6 +210,7 @@ public class toOneRightReturnMethod {
           }return null;
 }
     }
+```
 ```
 
 
