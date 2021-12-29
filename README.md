@@ -1,15 +1,6 @@
 # methodsDemoInJava
 ### kendisine parametre olarak gelen 3*4 lük 2 boyutlu string dizisindeki en uzun stringi ve yerini bulan metot 
 ```java
-
-
-
-
-
-package methodsdemo;
-import java.util.*;
-//kendisine parametre olarak gelen 3*4 lük 2 boyutlu string dizisindeki en uzun stringi ve yerini bulan metot 
-
 public class fındLongestStringİnArrays {
     public static void main(String[] args) {
        Scanner s = new Scanner(System.in);
@@ -42,7 +33,7 @@ public class fındLongestStringİnArrays {
         
     }
 }
-
+### 
 
 ```
 
