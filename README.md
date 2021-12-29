@@ -54,6 +54,26 @@ public class countLowerCase {
     
 }
 ```
+### kendisine parametre olarak gelen string içinde kaç adet kelime olduğunu bulan method;
+```java
+public class howManyThereİsWord {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        String str=s.nextLine();
+        howManyThereİsWord w = new howManyThereİsWord();
+        int adet=w.count(str);
+        System.out.println(adet);
+        
+    }public static int count(String str){
+        int counter=0;
+        for(int i=0;i<str.length();i++){
+            if(str.charAt(i)==' '){
+                counter+=1;          
+        }
+        }return counter+1;
+    }
+}
+```
 ```
 
 
