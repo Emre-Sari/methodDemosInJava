@@ -74,6 +74,7 @@ public class howManyThereİsWord {
 }
 ```
 ### kendisine parametre olarak gelen stringdeki küçük harfleri büyüğe büyük harfleri küçüğe çeviren method
+```java
 public class lowCharactertoUpCharacteANDupCharactertoLowCharacter {
     public static void main(String[] args) {
         String str=convert("ikTiSaT");
@@ -100,7 +101,7 @@ public class lowCharactertoUpCharacteANDupCharactertoLowCharacter {
 
 }
 ```
-
+```
 
 
 
