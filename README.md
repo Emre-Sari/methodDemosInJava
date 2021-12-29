@@ -101,6 +101,33 @@ public class lowCharactertoUpCharacteANDupCharactertoLowCharacter {
 
 }
 ```
+### kendisine parametre olarak gelen 10 elamanlı tam sayı dizisinin tek elamanlarının ortalamasını bulan method
+```java
+public class sumOfoddNumberInArray {
+    public static void main(String[] args) {
+        
+        System.out.println(calculate_sum_of_add_numbers(create_array()));
+        
+    }public static int[] create_array(){
+        Scanner s = new Scanner(System.in);
+        int dizi[]= new int[10];
+        for(int i=0;i<dizi.length;i++){
+            int number=s.nextInt();
+            dizi[i]=number;
+        }return dizi;
+    }public static int calculate_sum_of_add_numbers(int[] array){
+        int total=0;
+        int mean=0;
+        for(int i=0;i<array.length;i++){
+            if(array[i]%2!=0){
+                mean+=1;
+                total+=array[i];
+            }
+        }int calculater=total/mean;
+        return calculater;
+    }
+}
+```
 ```
 
 
