@@ -33,7 +33,23 @@ public class fındLongestStringİnArrays {
         
     }
 }
-### 
+### kendisine parametre olarak gelen stringdeki küçük karakterlerin sayısını geri döndüren metot 
+public class countLowerCase {
+    public static void main(String[] args) {
+        count("emRe");
+    }public static int count(String str){
+        int sayac=0;
+        for(int i=0;i<str.length();i++){
+            if(str.charAt(i)>='a' && str.charAt(i)<='z'){
+                sayac+=1;
+            }
+        }
+        System.out.println(sayac);
+        return sayac;
+        
+    }
+    
+}
 
 ```
 
