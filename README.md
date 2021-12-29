@@ -1,5 +1,29 @@
 # methodDemosInJava
-### kendisine parametre olarak gelen 3*4 lük 2 boyutlu string dizisindeki en uzun stringi ve yerini bulan metot 
+### kendisine parametre olarak gelen diziyi bir sağa çeviren method;
+public class toOneRightReturnMethod {
+    public static void main(String[] args) {
+        read_arrays(to_one_right(create_array()));
+        
+    }public static int[] create_array(){
+        Scanner s = new Scanner(System.in);
+        int dizi[]=new int[10];
+        for(int i=0;i<dizi.length;i++){
+            int number=s.nextInt();
+            dizi[i]=number;
+        }return dizi;
+    }public static int[] to_one_right(int[] a){
+      int yedek=a[a.length-1];
+      for(int i=8;i>=0;i--){
+          a[i+1]=a[i];}
+      a[0]=yedek;
+      return a;
+      }public static int[] read_arrays(int[] m ){
+          for(int i=0;i<m.length;i++){
+              System.out.println(m[i]);
+          }return null;
+}
+    }
+### kendisine parametre olarak gelen 3*4 lük 2 boyutlu string dizisindeki en uzun stringi ve yerini bulan method;
 ```java
 public class fındLongestStringİnArrays {
     public static void main(String[] args) {
@@ -34,7 +58,7 @@ public class fındLongestStringİnArrays {
     }
 }
 ```
-### kendisine parametre olarak gelen stringdeki küçük karakterlerin sayısını geri döndüren metot 
+### kendisine parametre olarak gelen stringdeki küçük karakterlerin sayısını geri döndüren method;
 ```java
 public class countLowerCase {
     public static void main(String[] args) {
@@ -73,7 +97,7 @@ public class howManyThereİsWord {
     }
 }
 ```
-### kendisine parametre olarak gelen stringdeki küçük harfleri büyüğe büyük harfleri küçüğe çeviren method
+### kendisine parametre olarak gelen stringdeki küçük harfleri büyüğe büyük harfleri küçüğe çeviren method;
 ```java
 public class lowCharactertoUpCharacteANDupCharactertoLowCharacter {
     public static void main(String[] args) {
@@ -101,7 +125,7 @@ public class lowCharactertoUpCharacteANDupCharactertoLowCharacter {
 
 }
 ```
-### kendisine parametre olarak gelen 10 elamanlı tam sayı dizisinin tek elamanlarının ortalamasını bulan method
+### kendisine parametre olarak gelen 10 elamanlı tam sayı dizisinin tek elamanlarının ortalamasını bulan method;
 ```java
 public class sumOfoddNumberInArray {
     public static void main(String[] args) {
@@ -128,7 +152,7 @@ public class sumOfoddNumberInArray {
     }
 }
 ```
-### kendisine parametre olarak gelen 10 elamanlı dizideki en büyük ve en küçük değeri döndüren metot
+### kendisine parametre olarak gelen 10 elamanlı dizideki en büyük ve en küçük değeri döndüren method;
 ```java
 public class theBiggestAndTheShortest {
     public static void main(String[] args) {
@@ -160,6 +184,30 @@ public class theBiggestAndTheShortest {
     
 }
 ```
+### kendisine parametre olarak gelen diziyi bir sağa çeviren method;
+public class toOneRightReturnMethod {
+    public static void main(String[] args) {
+        read_arrays(to_one_right(create_array()));
+        
+    }public static int[] create_array(){
+        Scanner s = new Scanner(System.in);
+        int dizi[]=new int[10];
+        for(int i=0;i<dizi.length;i++){
+            int number=s.nextInt();
+            dizi[i]=number;
+        }return dizi;
+    }public static int[] to_one_right(int[] a){
+      int yedek=a[a.length-1];
+      for(int i=8;i>=0;i--){
+          a[i+1]=a[i];}
+      a[0]=yedek;
+      return a;
+      }public static int[] read_arrays(int[] m ){
+          for(int i=0;i<m.length;i++){
+              System.out.println(m[i]);
+          }return null;
+}
+    }
 ```
 
 
