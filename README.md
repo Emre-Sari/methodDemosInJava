@@ -1,6 +1,6 @@
 # methodsDemoInJava
-###kendisine parametre olarak gelen 3*4 lük 2 boyutlu string dizisindeki en uzun stringi ve yerini bulan metot 
-"""java
+### kendisine parametre olarak gelen 3*4 lük 2 boyutlu string dizisindeki en uzun stringi ve yerini bulan metot 
+```java
 
 
 
@@ -44,7 +44,7 @@ public class fındLongestStringİnArrays {
 }
 
 
-"""
+```
 
 
 
