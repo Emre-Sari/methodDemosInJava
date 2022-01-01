@@ -185,33 +185,7 @@ public class theBiggestAndTheShortest {
     }
     
 }
-```
-### kendisine parametre olarak gelen diziyi bir sağa çeviren method;
-```java
-public class toOneRightReturnMethod {
-    public static void main(String[] args) {
-        read_arrays(to_one_right(create_array()));
-        
-    }public static int[] create_array(){
-        Scanner s = new Scanner(System.in);
-        int dizi[]=new int[10];
-        for(int i=0;i<dizi.length;i++){
-            int number=s.nextInt();
-            dizi[i]=number;
-        }return dizi;
-    }public static int[] to_one_right(int[] a){
-      int yedek=a[a.length-1];
-      for(int i=8;i>=0;i--){
-          a[i+1]=a[i];}
-      a[0]=yedek;
-      return a;
-      }public static int[] read_arrays(int[] m ){
-          for(int i=0;i<m.length;i++){
-              System.out.println(m[i]);
-          }return null;
-}
-    }
-```
+
 
 
 
