@@ -183,9 +183,113 @@ public class theBiggestAndTheShortest {
         return dizi;
 
     }
-    
 }
+```
+### kendisine parametre olarak gelen dizinin sıralı olup olmadığını bulan method;
+```java
+public class serialMethods {
+    public static void main(String[] args) {
+        System.out.println(isserial(create_array(4)));
+        
+    }public static int[] create_array(int each){
+        int arrays[]=new int[each];
+        Scanner s = new Scanner(System.in);
+        for(int i=0;i<each;i++){
+            int number=s.nextInt();
+            arrays[i]=number;
+        }return arrays;
+    }
+    public static boolean isserial(int[] array){
+        for(int i=0;i<array.length-1;i++){
+            if(array[i]>array[i+1]){
+                return false;
+            }
+        }return true;
+    }public static void check(boolean a){
+        if(a==false){
+            
+            System.out.println("it is a serial array");
+        }else{
+            System.out.println("it is not a serial array");
+        }        
 
+    }
+}
+```
+### kendisine parametre olarak gelen iki stringden büyük olanı döndüren method;
+```java
+public class whichStringBiggest {
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        String str1 = s.next();
+        String str2 = s.next();
+        whichStringBiggest w = new whichStringBiggest();
+        String enb = w.biggest(str1, str2);
+        System.out.println(enb);
+    }
+
+    public static String biggest(String str1, String str2) {
+        if (str1.length() > str2.length()) {
+            return str1;
+        } else {
+            return str2;
+        }
+    }
+}
+```
+### Kendisine parametre olarak gelen tamsayı dizisini küçükten büyüğe sıralayan method;
+```java
+
+public class selectionInShort {
+
+    public static void main(String[] args) {
+
+        int dizi[] = {3, 17, 86, -9, 7, -11, 38};
+
+        write(short_by(dizi));
+    }
+
+    public static int[] short_by(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            int index = i;
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[j] < array[index]) {
+                    index = j;
+                }
+            }
+            int yedek = array[i];
+            array[i] = array[index];
+            array[index] = yedek;
+        }
+        return array;
+    }
+
+    public static void write(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+    }
+}
+```
+### kendisine paeametre olarak gelen Stringi tersten yazan method;
+```java
+public class oppositeOfString {
+
+    public static void main(String[] args) {
+        System.out.println(opposite_write("polis"));
+
+    }
+
+    public static String opposite_write(String str) {
+        String opposite = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            opposite += str.charAt(i);
+        }
+        return opposite;
+    }
+
+}
 
 
 
