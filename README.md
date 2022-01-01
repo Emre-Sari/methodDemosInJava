@@ -238,9 +238,56 @@ public class whichStringBiggest {
     }
 }
 ```
+### kendisine parametre olarak gelen onluk tabandaki sayıyı ikilik tabana çeviren method;
+```java
+public class decimalNumberToBinaryNumber {
+
+    public static void main(String[] args) {
+        System.out.println(convert(21));
+
+    }
+
+    public static String convert(int number) {
+        int binary[] = new int[40];
+        String str = "";
+        int index = 0;
+        while (number > 0) {
+            binary[index] = number % 2;
+            index += 1;
+            number = number / 2;
+        }
+        for (int i = index - 1; i >= 0; i--) {
+            str += binary[i];
+        }
+        return str;
+    }
+}
+```
+### kendisine parametre olarak gelen ikilik tabandaki tamsayıyı onluk tabana çeviren method;
+```java
+public class binaryNumberToDecimalNumber {
+
+    public static void main(String[] args) {
+        System.out.println(convert(1110));
+    }
+    public static int convert(int number) {
+        int sum = 0;
+        String str = String.valueOf(number);
+        int sayac = 0;
+        for (int i = str.length() - 1; i >= 0; i--) {
+            if (str.charAt(i) == '1') {
+                double islem = Math.pow(2, sayac);
+                sum += islem;
+            } else {
+            }
+            sayac += 1;
+        }
+        return sum;
+    }
+}
+```
 ### Kendisine parametre olarak gelen tamsayı dizisini küçükten büyüğe sıralayan method;
 ```java
-
 public class selectionInShort {
 
     public static void main(String[] args) {
@@ -272,7 +319,7 @@ public class selectionInShort {
     }
 }
 ```
-### kendisine paeametre olarak gelen Stringi tersten yazan method;
+### kendisine parametre olarak gelen Stringi tersten yazan method;
 ```java
 public class oppositeOfString {
 
@@ -290,6 +337,132 @@ public class oppositeOfString {
     }
 
 }
+```
+### kendisine parametre olarak gelen stringin polindrom olup olmadığını döndüren method;
+```java
+public class isİtPolindrom {
+
+    public static void main(String[] args) {
+        System.out.println(polindrommu("kabak"));
+    }
+
+    public static boolean polindrommu(String str) {
+        for (int i = 0, j = str.length() - 1; i < str.length(); i++, j--) {
+            if (str.charAt(i) != str.charAt(j)) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
+### kendisine parametre olarak gelen sayını asalmı olup olmadığını bulan method;
+```java
+public class isItPrimeNumber {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int sayi=s.nextInt();
+        control(is_prime(sayi));
+        
+    }public static boolean is_prime(int number){
+        for(int i=2;i<number;i++){
+            if(number%i==0){
+                return false;
+            }
+        }return true;
+    }public static void control(boolean a){
+        if(a == true){
+            System.out.println("sayı asaldır");
+            
+        }else{
+            System.out.println("sayı asal değildir");
+        }
+    }
+}
+```
+### kendidine parametre olarak gelen string içinde kaç adet "aa" olduğunu bulan method;
+```java
+public class howManyThereİsAA {
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        howManyThereİsAA k = new howManyThereİsAA();
+        String name = s.next();
+        int a = k.count(name);
+        System.out.println(a);
+    }
+
+    public static int count(String str) {
+        int counter = 0;
+        for (int i = 0; i < str.length() - 1; i++) {
+            if (str.charAt(i) == 'a' && str.charAt(i + 1) == 'a') {
+                i++;
+                counter += 1;
+            }
+        }
+        return counter;
+
+    }
+}
+```
+### kendisine parametre olarak gelen tamsayı dizisindeki en büyük elamanın yerini bulan method;
+```java
+public class findPlaceOfLongestString {
+
+    public static void main(String[] args) {
+        find(create_array(4));
+    }
+
+    public static String[] create_array(int each) {
+        Scanner s = new Scanner(System.in);
+        String array[] = new String[each];
+        for (int i = 0; i < each; i++) {
+            String str = s.next();
+            array[i] = str;
+        }
+        return array;
+    }
+
+    public static int find(String[] array) {
+        int enb = array[0].length();
+        int indis = 0;
+        for (int i = 1; i < array.length; i++) {
+            if (array[i].length() > enb) {
+                indis = i;
+                enb = array.length;
+            }
+        }
+        System.out.println(indis);
+        return indis;
+    }
+}
+```
+### kendisine parametre olarak gelen tam sayının basamakları ekrana yazan method;
+```java
+public class findDigitNumber {
+    public static void main(String[] args) {
+        read(789);
+    }
+
+    public static void read(int number) {
+        int each = 0;
+        int digit;
+        while (number > 0) {
+            each++;
+            digit = number % 10;
+            System.out.println(digit);
+            number = number / 10;
+        }
+        System.out.println(each + " basamaklı");
+
+    }
+}
+
+
+
+
+
+
 
 
 
