@@ -356,7 +356,7 @@ public class isİtPolindrom {
     }
 }
 ```
-### kendisine parametre olarak gelen sayını asalmı olup olmadığını bulan method;
+### kendisine parametre olarak gelen sayının asal olup olmadığını bulan method;
 ```java
 public class isItPrimeNumber {
     public static void main(String[] args) {
