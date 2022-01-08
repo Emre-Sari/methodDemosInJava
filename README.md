@@ -1,4 +1,26 @@
 # methodDemosInJava
+### kendisine parametre olarak gelen sayı kadar 8 karakterli rastgele harflerden oluşan şifreler oluşruran method;
+```java
+public class createRandomPassword {
+
+    public static void main(String[] args) {
+        create(5);
+    }
+    public static String create(int number) {
+        String str = "";
+        for (int i = 0; i < number; i++) {
+            Random random_number = new Random();
+            for (int j = 0; j <= 7; j++) {
+                char karakter = (char) random_number.nextInt(97, 122);
+                str += karakter;
+            }
+            System.out.println(str);
+            str = "";
+        }
+        return str;
+    }
+}
+```
 ### kendisine parametre olarak gelen diziyi bir sağa çeviren method;
 ```java
 public class toOneRightReturnMethod {
