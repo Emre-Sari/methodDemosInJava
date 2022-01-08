@@ -1,5 +1,6 @@
 # methodDemosInJava
 ### kendisine parametre olarak gelen sayı kadar 8 karakterli rastgele harflerden oluşan şifreler oluşruran method;
+### Password method consisting of 8-character letters as much as the number that comes as a parameter;
 ```java
 public class createRandomPassword {
 
@@ -22,6 +23,7 @@ public class createRandomPassword {
 }
 ```
 ### kendisine parametre olarak gelen diziyi bir sağa çeviren method;
+### the method that turns the string that comes as a parameter to the right;
 ```java
 public class toOneRightReturnMethod {
     public static void main(String[] args) {
@@ -48,6 +50,7 @@ public class toOneRightReturnMethod {
     }
 ```
 ### kendisine parametre olarak gelen 3*4 lük 2 boyutlu string dizisindeki en uzun stringi ve yerini bulan method;
+### The longest string in the 3*4 2-dimensional string array that comes as a parameter and its location method;
 ```java
 public class fındLongestStringİnArrays {
     public static void main(String[] args) {
@@ -83,6 +86,7 @@ public class fındLongestStringİnArrays {
 }
 ```
 ### kendisine parametre olarak gelen stringdeki küçük karakterlerin sayısını geri döndüren method;
+### method that returns the number of lowercase characters in the string that comes as a parameter;
 ```java
 public class countLowerCase {
     public static void main(String[] args) {
@@ -102,6 +106,7 @@ public class countLowerCase {
 }
 ```
 ### kendisine parametre olarak gelen string içinde kaç adet kelime olduğunu bulan method;
+### method that finds how many words are in the string that comes to it as a parameter;
 ```java
 public class howManyThereİsWord {
     public static void main(String[] args) {
@@ -122,6 +127,7 @@ public class howManyThereİsWord {
 }
 ```
 ### kendisine parametre olarak gelen stringdeki küçük harfleri büyüğe büyük harfleri küçüğe çeviren method;
+### The method that converts the string that comes as a parameter to lowercase, uppercase, uppercase;
 ```java
 public class lowCharactertoUpCharacteANDupCharactertoLowCharacter {
     public static void main(String[] args) {
@@ -150,6 +156,8 @@ public class lowCharactertoUpCharacteANDupCharactertoLowCharacter {
 }
 ```
 ### kendisine parametre olarak gelen 10 elamanlı tam sayı dizisinin tek elamanlarının ortalamasını bulan method;
+### The method that finds the average of the single elements of the 10-element integer array that comes as a parameter;
+
 ```java
 public class sumOfoddNumberInArray {
     public static void main(String[] args) {
@@ -177,6 +185,7 @@ public class sumOfoddNumberInArray {
 }
 ```
 ### kendisine parametre olarak gelen 10 elamanlı dizideki en büyük ve en küçük değeri döndüren method;
+### method that returns the biggest and smallest value in the 10-element array that comes to it as a parameter;
 ```java
 public class theBiggestAndTheShortest {
     public static void main(String[] args) {
@@ -208,6 +217,7 @@ public class theBiggestAndTheShortest {
 }
 ```
 ### kendisine parametre olarak gelen dizinin sıralı olup olmadığını bulan method;
+### method that finds whether the array that comes to it as a parameter is sequential;
 ```java
 public class serialMethods {
     public static void main(String[] args) {
