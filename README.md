@@ -1,6 +1,6 @@
 # methodDemosInJava
 ### Password method consisting of 8-character letters as much as the number that comes as a parameter;
-### kendisine parametre olarak gelen sayı kadar 8 karakterli rastgele harflerden oluşan şifreler oluşruran method;
+### Kendisine parametre olarak gelen sayı kadar 8 karakterli rastgele harflerden oluşan şifreler oluşruran method;
 ```java
 public class createRandomPassword {
 
@@ -24,7 +24,7 @@ public class createRandomPassword {
 ```
 
 ### The method that turns the string that comes as a parameter to the right;
-### kendisine parametre olarak gelen diziyi bir sağa çeviren method;
+### Kendisine parametre olarak gelen diziyi bir sağa çeviren method;
 ```java
 public class toOneRightReturnMethod {
     public static void main(String[] args) {
@@ -51,7 +51,7 @@ public class toOneRightReturnMethod {
     }
 ```
 ### The longest string in the 3*4 2-dimensional string array that comes as a parameter and its location method;
-### kendisine parametre olarak gelen 3*4 lük 2 boyutlu string dizisindeki en uzun stringi ve yerini bulan method;
+### Kendisine parametre olarak gelen 3*4 lük 2 boyutlu string dizisindeki en uzun stringi ve yerini bulan method;
 ```java
 public class fındLongestStringİnArrays {
     public static void main(String[] args) {
@@ -87,7 +87,7 @@ public class fındLongestStringİnArrays {
 }
 ```
 ### Method that returns the number of lowercase characters in the string that comes as a parameter;
-### kendisine parametre olarak gelen stringdeki küçük karakterlerin sayısını geri döndüren method;
+### Kendisine parametre olarak gelen stringdeki küçük karakterlerin sayısını geri döndüren method;
 ```java
 public class countLowerCase {
     public static void main(String[] args) {
@@ -107,7 +107,7 @@ public class countLowerCase {
 }
 ```
 ### Method that finds how many words are in the string that comes to it as a parameter;
-### kendisine parametre olarak gelen string içinde kaç adet kelime olduğunu bulan method;
+### Kendisine parametre olarak gelen string içinde kaç adet kelime olduğunu bulan method;
 ```java
 public class howManyThereİsWord {
     public static void main(String[] args) {
@@ -128,7 +128,7 @@ public class howManyThereİsWord {
 }
 ```
 ### The method that converts the string that comes as a parameter to lowercase, uppercase, uppercase;
-### kendisine parametre olarak gelen stringdeki küçük harfleri büyüğe büyük harfleri küçüğe çeviren method;
+### Kendisine parametre olarak gelen stringdeki küçük harfleri büyüğe büyük harfleri küçüğe çeviren method;
 ```java
 public class lowCharactertoUpCharacteANDupCharactertoLowCharacter {
     public static void main(String[] args) {
@@ -157,7 +157,7 @@ public class lowCharactertoUpCharacteANDupCharactertoLowCharacter {
 }
 ```
 ### The method that finds the average of the single elements of the 10-element integer array that comes as a parameter;
-### kendisine parametre olarak gelen 10 elamanlı tam sayı dizisinin tek elamanlarının ortalamasını bulan method;
+### Kendisine parametre olarak gelen 10 elamanlı tam sayı dizisinin tek elamanlarının ortalamasını bulan method;
 
 ```java
 public class sumOfoddNumberInArray {
@@ -185,8 +185,8 @@ public class sumOfoddNumberInArray {
     }
 }
 ```
-### method that returns the biggest and smallest value in the 10-element array that comes to it as a parameter;
-### kendisine parametre olarak gelen 10 elamanlı dizideki en büyük ve en küçük değeri döndüren method;
+### Method that returns the biggest and smallest value in the 10-element array that comes to it as a parameter;
+### Kendisine parametre olarak gelen 10 elamanlı dizideki en büyük ve en küçük değeri döndüren method;
 ```java
 public class theBiggestAndTheShortest {
     public static void main(String[] args) {
@@ -217,8 +217,8 @@ public class theBiggestAndTheShortest {
     }
 }
 ```
-### method that finds whether the array that comes to it as a parameter is sequential;
-### kendisine parametre olarak gelen dizinin sıralı olup olmadığını bulan method;
+### Method that finds whether the array that comes to it as a parameter is sequential;
+### Kendisine parametre olarak gelen dizinin sıralı olup olmadığını bulan method;
 ```java
 public class serialMethods {
     public static void main(String[] args) {
@@ -249,8 +249,8 @@ public class serialMethods {
     }
 }
 ```
-### method that returns the larger of the two strings that come to it as a parameter;
-### kendisine parametre olarak gelen iki stringden büyük olanı döndüren method;
+### Method that returns the larger of the two strings that come to it as a parameter;
+### Kendisine parametre olarak gelen iki stringden büyük olanı döndüren method;
 ```java
 public class whichStringBiggest {
 
@@ -273,7 +273,7 @@ public class whichStringBiggest {
 }
 ```
 ### The method that converts the decimal number that comes as a parameter to binary;
-### kendisine parametre olarak gelen onluk tabandaki sayıyı ikilik tabana çeviren method;
+### Kendisine parametre olarak gelen onluk tabandaki sayıyı ikilik tabana çeviren method;
 ```java
 public class decimalNumberToBinaryNumber {
 
@@ -299,7 +299,7 @@ public class decimalNumberToBinaryNumber {
 }
 ```
 ### The method that converts the binary integer to decimal that comes as a parameter;
-### kendisine parametre olarak gelen ikilik tabandaki tamsayıyı onluk tabana çeviren method;
+### Kendisine parametre olarak gelen ikilik tabandaki tamsayıyı onluk tabana çeviren method;
 ```java
 public class binaryNumberToDecimalNumber {
 
@@ -357,7 +357,7 @@ public class selectionInShort {
 }
 ```
 ### Method that writes the String that comes as a parameter in reverse;
-### kendisine parametre olarak gelen Stringi tersten yazan method;
+### Kendisine parametre olarak gelen Stringi tersten yazan method;
 ```java
 public class oppositeOfString {
 
@@ -377,7 +377,7 @@ public class oppositeOfString {
 }
 ```
 ### Method that returns whether the string that comes as a parameter is a polyndrome;
-### kendisine parametre olarak gelen stringin polindrom olup olmadığını döndüren method;
+### Kendisine parametre olarak gelen stringin polindrom olup olmadığını döndüren method;
 ```java
 public class isİtPolindrom {
 
@@ -396,7 +396,7 @@ public class isİtPolindrom {
 }
 ```
 ### Method that finds whether the number that comes as a parameter is prime or not;
-### kendisine parametre olarak gelen sayının asal olup olmadığını bulan method;
+### Kendisine parametre olarak gelen sayının asal olup olmadığını bulan method;
 ```java
 public class isItPrimeNumber {
     public static void main(String[] args) {
@@ -421,7 +421,7 @@ public class isItPrimeNumber {
 }
 ```
 ### Method that finds how many "aa" there are in the string that comes as a parameter;
-### kendisine parametre olarak gelen string içinde kaç adet "aa" olduğunu bulan method;
+### Kendisine parametre olarak gelen string içinde kaç adet "aa" olduğunu bulan method;
 ```java
 public class howManyThereİsAA {
 
@@ -447,7 +447,7 @@ public class howManyThereİsAA {
 }
 ```
 ### Method that finds the location of the largest element in the integer array that comes to it as a parameter;
-### kendisine parametre olarak gelen tamsayı dizisindeki en büyük elamanın yerini bulan method;
+### Kendisine parametre olarak gelen tamsayı dizisindeki en büyük elamanın yerini bulan method;
 ```java
 public class findPlaceOfLongestString {
 
@@ -480,7 +480,7 @@ public class findPlaceOfLongestString {
 }
 ```
 ### Method that writes the digits of the integer that comes as a parameter to the screen;
-### kendisine parametre olarak gelen tam sayının basamakları ekrana yazan method;
+### Kendisine parametre olarak gelen tam sayının basamakları ekrana yazan method;
 ```java
 public class findDigitNumber {
     public static void main(String[] args) {
