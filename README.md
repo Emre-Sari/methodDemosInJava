@@ -249,6 +249,7 @@ public class serialMethods {
 }
 ```
 ### kendisine parametre olarak gelen iki stringden büyük olanı döndüren method;
+### method that returns the larger of the two strings that come to it as a parameter;
 ```java
 public class whichStringBiggest {
 
@@ -271,6 +272,7 @@ public class whichStringBiggest {
 }
 ```
 ### kendisine parametre olarak gelen onluk tabandaki sayıyı ikilik tabana çeviren method;
+### the method that converts the decimal number that comes as a parameter to binary;
 ```java
 public class decimalNumberToBinaryNumber {
 
@@ -296,6 +298,7 @@ public class decimalNumberToBinaryNumber {
 }
 ```
 ### kendisine parametre olarak gelen ikilik tabandaki tamsayıyı onluk tabana çeviren method;
+### The method that converts the binary integer to decimal that comes as a parameter;
 ```java
 public class binaryNumberToDecimalNumber {
 
@@ -319,6 +322,7 @@ public class binaryNumberToDecimalNumber {
 }
 ```
 ### Kendisine parametre olarak gelen tamsayı dizisini küçükten büyüğe sıralayan method;
+### The method that sorts the integer array that comes as a parameter from smallest to largest;
 ```java
 public class selectionInShort {
 
@@ -352,6 +356,7 @@ public class selectionInShort {
 }
 ```
 ### kendisine parametre olarak gelen Stringi tersten yazan method;
+### method that writes the String that comes as a parameter in reverse;
 ```java
 public class oppositeOfString {
 
@@ -371,6 +376,7 @@ public class oppositeOfString {
 }
 ```
 ### kendisine parametre olarak gelen stringin polindrom olup olmadığını döndüren method;
+### method that returns whether the string that comes as a parameter is a polyndrome;
 ```java
 public class isİtPolindrom {
 
@@ -389,6 +395,7 @@ public class isİtPolindrom {
 }
 ```
 ### kendisine parametre olarak gelen sayının asal olup olmadığını bulan method;
+### method that finds whether the number that comes as a parameter is prime or not;
 ```java
 public class isItPrimeNumber {
     public static void main(String[] args) {
@@ -412,7 +419,8 @@ public class isItPrimeNumber {
     }
 }
 ```
-### kendidine parametre olarak gelen string içinde kaç adet "aa" olduğunu bulan method;
+### kendisine parametre olarak gelen string içinde kaç adet "aa" olduğunu bulan method;
+### method that finds how many "aa" there are in the string that comes as a parameter;
 ```java
 public class howManyThereİsAA {
 
@@ -438,6 +446,7 @@ public class howManyThereİsAA {
 }
 ```
 ### kendisine parametre olarak gelen tamsayı dizisindeki en büyük elamanın yerini bulan method;
+### method that finds the location of the largest element in the integer array that comes to it as a parameter;
 ```java
 public class findPlaceOfLongestString {
 
@@ -470,6 +479,7 @@ public class findPlaceOfLongestString {
 }
 ```
 ### kendisine parametre olarak gelen tam sayının basamakları ekrana yazan method;
+### method that writes the digits of the integer that comes as a parameter to the screen;
 ```java
 public class findDigitNumber {
     public static void main(String[] args) {
