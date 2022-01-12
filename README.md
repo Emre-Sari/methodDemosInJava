@@ -50,7 +50,7 @@ public class toOneRightReturnMethod {
     }
 ```
 ### method that assigns the sum of the same numbers in the same index in two arrays to the new array;
-### iki dizideki aynı dizindeki aynı sayıların toplamını yeni diziye atayan method;
+### iki dizideki aynı indisdeki aynı sayıların toplamını yeni diziye atayan method;
 ```java 
 public static void main(String[] args) {
         int array1[] = {12, 23, -5, 45, 77, 31};
