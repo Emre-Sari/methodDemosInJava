@@ -22,7 +22,6 @@ public class createRandomPassword {
     }
 }
 ```
-
 ### The method that turns the string that comes as a parameter to the right;
 ### Kendisine parametre olarak gelen diziyi bir sağa çeviren method;
 ```java
@@ -48,6 +47,34 @@ public class toOneRightReturnMethod {
               System.out.println(m[i]);
           }return null;
 }
+    }
+```
+### method that assigns the sum of the same numbers in the same index in two arrays to the new array;
+### iki dizideki aynı dizindeki aynı sayıların toplamını yeni diziye atayan method;
+```java 
+public static void main(String[] args) {
+        int array1[] = {12, 23, -5, 45, 77, 31};
+        int array2[] = {12, 22, -5, 11, 32, 31};
+        int null_array[] = new int[7];
+        for (int i = 0; i < null_array.length; i++) {
+            if (find(array1, array2, null_array)[i] != 0) {
+                System.out.println(find(array1, array2, null_array)[i]);
+            }
+
+        }
+    }
+    public static int[] find(int[] array1, int[] array2, int[] null_array) {
+        int counter = 0;
+        int total;
+        for (int i = 0; i < array1.length; i++) {
+            if (array1[i] == array2[i]) {
+                total = array1[i] + array2[i];
+                null_array[counter] = total;
+                total = 0;
+                counter += 1;
+            }
+        }
+        return null_array;
     }
 ```
 ### The longest string in the 3*4 2-dimensional string array that comes as a parameter and its location method;
