@@ -1,32 +1,6 @@
 # methodDemosInJava
 
-### The method that turns the string that comes as a parameter to the right;
-### Kendisine parametre olarak gelen diziyi bir sağa çeviren method;
-```java
-public class toOneRightReturnMethod {
-    public static void main(String[] args) {
-        read_arrays(to_one_right(create_array()));
-        
-    }public static int[] create_array(){
-        Scanner s = new Scanner(System.in);
-        int dizi[]=new int[10];
-        for(int i=0;i<dizi.length;i++){
-            int number=s.nextInt();
-            dizi[i]=number;
-        }return dizi;
-    }public static int[] to_one_right(int[] a){
-      int yedek=a[a.length-1];
-      for(int i=8;i>=0;i--){
-          a[i+1]=a[i];}
-      a[0]=yedek;
-      return a;
-      }public static int[] read_arrays(int[] m ){
-          for(int i=0;i<m.length;i++){
-              System.out.println(m[i]);
-          }return null;
-}
-    }
-```
+
 ### method that assigns the sum of the same numbers in the same index in two arrays to the new array;
 ### iki dizideki aynı indisdeki aynı sayıların toplamını yeni diziye atayan method;
 ```java 
@@ -212,6 +186,33 @@ public class createRandomPassword {
         return str;
     }
 }
+```
+### The method that turns the string that comes as a parameter to the right;
+### Kendisine parametre olarak gelen diziyi bir sağa çeviren method;
+```java
+public class toOneRightReturnMethod {
+    public static void main(String[] args) {
+        read_arrays(to_one_right(create_array()));
+        
+    }public static int[] create_array(){
+        Scanner s = new Scanner(System.in);
+        int dizi[]=new int[10];
+        for(int i=0;i<dizi.length;i++){
+            int number=s.nextInt();
+            dizi[i]=number;
+        }return dizi;
+    }public static int[] to_one_right(int[] a){
+      int yedek=a[a.length-1];
+      for(int i=8;i>=0;i--){
+          a[i+1]=a[i];}
+      a[0]=yedek;
+      return a;
+      }public static int[] read_arrays(int[] m ){
+          for(int i=0;i<m.length;i++){
+              System.out.println(m[i]);
+          }return null;
+}
+    }
 ```
 ### Method that returns the biggest and smallest value in the 10-element array that comes to it as a parameter;
 ### Kendisine parametre olarak gelen 10 elamanlı dizideki en büyük ve en küçük değeri döndüren method;
